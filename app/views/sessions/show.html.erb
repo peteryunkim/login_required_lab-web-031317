@@ -1,0 +1,4 @@
+<h2>hey, welcome, <%=session[:name]%></h2>
+<%if session[:name].present?%>
+<%= link_to "secret page", secret_path%>
+<%end%>

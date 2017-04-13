@@ -1,0 +1,9 @@
+<h1>Please log in</h1>
+<p><%= form_tag ({controller: 'sessions', method:'post', action: 'create'}) do%></p>
+<p> please enter your name:</p>
+<p><%= text_field_tag :username%></p>
+<p><%= submit_tag "login"%></p>
+<p><%end %></p>
+
+
+
